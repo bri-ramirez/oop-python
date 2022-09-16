@@ -11,8 +11,6 @@ class Usuario:		# esto es lo que tenemos hasta ahora
 
     # la cuenta del usuario específico aumenta en la cantidad del valor recibido
     def hacer_retiro(self, amount):
-        if amount > self.balance_cuenta:
-            return
         self.balance_cuenta -= amount
         return self
 
